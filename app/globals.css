@@ -2,26 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  body {
+    @apply dark:bg-[rgb(34,34,34)] bg-white text-gray-700 dark:text-white;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(720deg); /* Two full spins (360deg * 2) */
+  }
+}
+
+.logo:hover {
+  animation: spin 2s ease-in-out; /* Two seconds for two spins */
+  transform: scale(1.2) ease-in-out; /* Scale up by 20% */
+}
+
+@keyframes borderSpin {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(720deg);
+  }
+}
+
+.borderSpin {
+  animation: borderSpin 2s ease-in-out infinite;
+}
+
+@layer components {
+  .heroButton {
+    @apply px-6 py-2 border border-transparent rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#89cff0]/40 dark:hover:border-[#6fcbf5]/40 hover:text-[#6fcbf5] dark:hover:text-[#89cff0]/40;
+  }
+
+  .contactInput {
+    @apply px-6 py-4 border border-gray-300 rounded-md focus:outline-none focus:ring-[#89cff0] focus:border-[#89cff0] dark:focus:ring-[#6fcbf5] dark:focus:border-[#6fcbf5] transition-all focus:text-[#89cff0] dark:focus:text-[#6fcbf5] hover:border-[#89cff0] dark:hover:border-[#6fcbf5] placeholder-[#89cff0] dark:placeholder-[#6fcbf5]/70;
+  }
 }
