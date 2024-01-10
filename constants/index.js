@@ -366,7 +366,7 @@ export const projects = [
     image: chatgpt,
     url: "https://chatgpt.farazfarid.me/",
     description:
-      "Craving a next-level chatbot experience? Buckle up for ChatGPT Messenger 2.0, crafted with the future in mind. Using Next.js 13's cutting-edge framework, I'm taking chatbots beyond basic scripts. Dive deep into AI magic, craft personalized conversations using OpenAI's API with Firebase's real-time power, and enjoy a sleek, responsive interface brought to life by Tailwind CSS. Get ready to redefine how you connect!",
+      "Level up your chats! 🧠 ChatGPT Messenger 2.0: AI-powered conversations, real-time magic, and a UI as smooth as silk. Next-gen chat awaits!",
     skills: [react, tailwindcss, openai, firebase],
   },
   {
@@ -374,15 +374,15 @@ export const projects = [
     image: imagegen,
     url: "https://image-generator.farazfarid.me/",
     description:
-      "Unlock the surreal landscapes of your imagination with my DALL·E 3 Image Generator, where art and code collide in breathtaking harmony. Built on Next.js 13's cutting-edge framework, I've harnessed the creative power of OpenAI's API to bring your wildest visions to life. Dream up personalized prompts, watch Azure Functions weave their magic, and marvel as secure image handling safeguards your masterpieces. Explore an elevated UI, crafted with TypeScript's precision, for a truly immersive experience. Ready to paint the world with AI? Let's create together!",
+      "Unleash surreal AI art - DALL·E 3 x Next.js 13. Code meets canvas, paint with prompts! Secure, immersive, your visions, AI-born. Let's create! ✨",
     skills: [react, tailwindcss, openai, azure],
   },
   {
-    name: "PokéDex",
+    name: "PokéDex Tool",
     image: pokedex,
     url: "https://pokedex.farazfarid.me/",
     description:
-      "Calling all Pokémon trainers! Embark on a quest for React.js mastery with my meticulously crafted Pokédex. Journey through challenges like fetching data with fetch API, rendering stunning tables with calculated power, and navigating with intuitive pagination. Master search skills to uncover hidden Pokémon potential and filter by power thresholds. Embrace the beauty of TailwindCSS for a UI that's as captivating as a Charizard's flame. Witness a project structure built on SOLID principles, crafted for maintainability and performance that's faster than a Pikachu's Quick Attack. Ready to prove your React.js expertise? Let's catch 'em all!",
+      "Unleash your inner trainer!  Search all Pokémon, tap for stats, filter like a pro. Build your dream team with this sleek Pokédex app. Catch 'em all! ⚡️",
     skills: [react, tailwindcss],
   },
 ];

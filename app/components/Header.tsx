@@ -9,7 +9,7 @@ import { socials } from "@/constants";
 
 function Header() {
   return (
-    <header className="sticky top-0 flex items-start justify-between p-5 max-w-7xl mx-auto z-20 xl:items-center">
+    <header className="sticky top-0 flex items-start justify-between p-5 max-w-7xl mx-auto z-20 xl:items-center overflow-hidden">
       <Link href="#hero">
         <motion.div
           initial={{
@@ -22,7 +22,7 @@ function Header() {
             opacity: 1,
             scale: 1,
           }}
-          transition={{ duration: 1.5 }}
+          transition={{ duration: 0.2 }}
           className="flex flex-row items-center"
         >
           <img
@@ -43,7 +43,7 @@ function Header() {
           opacity: 1,
           scale: 1,
         }}
-        transition={{ duration: 1.5 }}
+        transition={{ duration: 0.2 }}
         className="flex flex-row items-center"
       >
         {socials.map((social) => (

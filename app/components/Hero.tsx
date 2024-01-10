@@ -15,7 +15,6 @@ function Hero() {
       "Business Advisor",
       "Game Developer",
       "Marketing Expert",
-      "Guy-who-loves-milk-and-cats.tsx",
     ],
     loop: true,
     delaySpeed: 2000,
@@ -29,15 +28,15 @@ function Hero() {
         alt="Faraz's Profile Picture"
       />
       <div className="z-20">
-        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
+        <h2 className="text-xs md:text-md uppercase text-gray-500 pb-2 tracking-[5px] md:tracking-[15px]">
           Software Engineer
         </h2>
-        <h1 className="text-5xl lg:text-6xl font-semibold px-10">
+        <h1 className="text-xl md:text-5xl lg:text-6xl font-semibold px-10">
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#89cff0" />
         </h1>
 
-        <div className="pt-5">
+        <div className="pt-5 flex flex-col md:flex-row justify-center items-center">
           <Link href="#about">
             <button className="heroButton">About</button>
           </Link>
