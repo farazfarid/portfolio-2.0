@@ -37,7 +37,7 @@ function Contact() {
           <h4 className="text-2xl md:text-4xl font-semibold text-center">
             Get in touch.{" "}
             <span className="underline decoration-[#89cff0]/50">
-              Let's Talk!
+              Let&apos;s Talk!
             </span>
           </h4>
 
