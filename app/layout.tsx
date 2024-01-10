@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning={true}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Faraz's Portfolio</title>
+        <title>Faraz&apos;s Portfolio</title>
         <meta property="og:title" content="Fabian Faraz Farid | Portfolio" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://i.ibb.co/S7MxkxN/DP7.png" />
