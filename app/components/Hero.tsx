@@ -24,7 +24,7 @@ function Hero() {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <AnimatedBorderImage
-        src="/heroImage.webp"
+        src="./profilePic.webp"
         alt="Faraz's Profile Picture"
       />
       <div className="z-20">
